@@ -72,7 +72,6 @@ cur_date = next_date
 is_first_date = True
 logcount = {}
 errcount = {}
-x = 1
 for file_arg in sys.argv:
     f = open(file_arg, "r")
     line = f.readline()
